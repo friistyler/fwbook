@@ -32,8 +32,8 @@ try:
     loginInput = loginForm.find_element(By.ID, "edit-name")
     passInput = loginForm.find_element(By.ID, "edit-pass")
     
-    loginInput.send_keys("friistyler@gmail.com")
-    passInput.send_keys("rBh8wkMrzPG5A44")
+    loginInput.send_keys("--login--")
+    passInput.send_keys("--password--")
 
     browser.save_screenshot('form.png')
     submit_elem = loginForm.find_element(By.ID, "edit-submit")
